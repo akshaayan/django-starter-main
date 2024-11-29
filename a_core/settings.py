@@ -37,9 +37,9 @@ else:
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'app-production-2313.up.railway.app']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'app-production-2313.up.railway.app', 'app-production-5d26.up.railway.app']
 
-CSRF_TRUSTED_ORIGINS = [ 'https://app-production-2313.up.railway.app' ]
+CSRF_TRUSTED_ORIGINS = [ 'https://app-production-2313.up.railway.app', 'https://app-production-5d26.up.railway.app']
 
 
 # Application definition
